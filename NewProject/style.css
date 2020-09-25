@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +12,11 @@ header {
   padding: 8px;
   background-color: rgb(5, 53, 143);
   color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 main {
@@ -26,13 +35,6 @@ h2 {
   font-family: "Roboto Slab", serif;
 }
 
-nav li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 230px;
-  margin-left: 200px;
-}
-
 a {
   font-family: "Roboto Slab", serif;
   text-decoration: none;
@@ -44,17 +46,38 @@ article {
   font-family: "Roboto Slab", serif;
   background-position: left top;
   background-repeat: no-repeat;
-  margin-bottom: 32px;
-  padding-bottom: 800px;
+  margin-bottom: 0px;
+  padding-bottom: 6.6rem;
+}
+
+article p {
+  background-color: wheat;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+#test2 {
+  display: flex;
+  justify-content: space-around;
+}
+#test {
+  background-color: orange;
+  border-color: orange;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#discgolf {
+  background-position-x: -450px;
+  background-image: url(https://www.latitude64.se/wp-content/uploads/2020/06/discgolf-for-beginners-guide-banner.jpg);
 }
 
 #segling {
   background-image: url(https://chemsec.org/app/uploads/2019/02/Lost-at-SEA.jpg);
 }
 
-#discgolf {
-  background-position-x: -500px;
-  background-image: url(https://www.latitude64.se/wp-content/uploads/2020/06/discgolf-for-beginners-guide-banner.jpg);
+#spel {
+  background-image: url(https://esports.dreamhack.com/wp-content/uploads/2018/08/Partners2.jpg);
 }
 
 td {
