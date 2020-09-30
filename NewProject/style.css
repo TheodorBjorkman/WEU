@@ -10,7 +10,7 @@ body {
 header {
   font-family: "Roboto Slab", serif;
   padding: 8px;
-  background-color: rgb(5, 53, 143);
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
@@ -26,7 +26,7 @@ main {
 }
 
 img {
-  width: 300px;
+  width: 20%;
 }
 
 h1,
@@ -45,22 +45,28 @@ article {
   width: 100%;
   font-family: "Roboto Slab", serif;
   background-position: left top;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   margin-bottom: 0px;
   padding-bottom: 6.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article p {
-  background-color: wheat;
-  opacity: 0.9;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(192, 192, 192);
+  opacity: 0.85;
   border-radius: 5px;
+  width: 75%;
 }
 #test2 {
   display: flex;
   justify-content: space-around;
 }
 #test {
-  background-color: orange;
+  background-color: rgb(134, 131, 124);
   border-color: orange;
   justify-content: center;
   border-radius: 5px;
@@ -69,6 +75,7 @@ article p {
 
 #discgolf {
   background-position-x: -450px;
+  height: 100%;
   background-image: url(https://www.latitude64.se/wp-content/uploads/2020/06/discgolf-for-beginners-guide-banner.jpg);
 }
 
